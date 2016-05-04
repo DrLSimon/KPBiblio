@@ -44,6 +44,7 @@ http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Zagoruyko_Learn
 * SIFT
 * ASIFT
 * SURF
+* LATCH http://www.openu.ac.il/home/hassner/projects/LATCH/
 * A tutorial sequence https://gilscvblog.com/2013/08/26/tutorial-on-binary-descriptors-part-1/
 
 ## benchmarking papers
