@@ -11,6 +11,8 @@ http://link.springer.com/chapter/10.1007%2F978-3-540-88693-8_8
 * FAST
 * OFAST (ORB detector ?)
 * AGAST
+* KAZE (non linear scale space)
+
 
 ----
 
@@ -45,7 +47,12 @@ http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Zagoruyko_Learn
 * ASIFT
 * SURF
 * LATCH http://www.openu.ac.il/home/hassner/projects/LATCH/
+* LDB http://lbmedia.ece.ucsb.edu/research/binaryDescriptor/ISMAR2012-LDP-final.pdf
+* AKAZE http://isit.u-clermont1.fr/~ab/Publications/Alcantarilla_etal_BMVC13.pdf (Accelarated KAZE detector and modified LDB descriptor for rotation and scale invariance)
 * A tutorial sequence https://gilscvblog.com/2013/08/26/tutorial-on-binary-descriptors-part-1/
+* A 2014 survey:  
+http://www.embedded-vision.com/sites/default/files/apress/computervisionmetrics/chapter6/9781430259299_Ch06.pdf
+
 
 ## benchmarking papers
 **[IJCV'04]** Mikolajczyk et al. *A Comparison of Affine Region Detectors.*  
@@ -55,6 +62,9 @@ http://www.robots.ox.ac.uk/~vgg/research/affine/
 
 **[ECCV'12]** Heinly et al. *Comparative evaluation of binary features.*  
 https://www.cs.unc.edu/~jheinly/publications/eccv2012-heinly.pdf
+
+**[ICIP'14]** Rey-Otero et al. *Comparing Feature Detectors: A bias in the repeatability criteria, and how to correct it*
+https://arxiv.org/pdf/1409.2465v2.pdf
 
 **[ARXIV'16]** Fan et al. *Do We Need Binary Features for 3D Reconstruction?*  
 http://arxiv.org/pdf/1602.04502v1.pdf
@@ -72,6 +82,9 @@ http://www1.cs.columbia.edu/CAVE/publications/pdfs/Kumar_ECCV08_2.pdf
 
 **[PAMI'11]** Jegou et al. *Product quantization for nearest neighbor search.*  
 http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.164.8334&rep=rep1&type=pdf
+
+**[CRV'12]** Muja et Lowe. *Fast Matching of Binary Features*  
+http://www.cs.ubc.ca/~lowe/papers/12mujaCRV.pdf
 
 ## Hashing without supervision
 **[NIPS'09]** Weiss et al. *Spectral Hashing.*  
