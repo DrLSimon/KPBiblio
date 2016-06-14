@@ -39,6 +39,18 @@ http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Han_MatchNet_Un
 **[CVPR'15]** Zagoruyko *DeepCompare (Komodakis).*  
 http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Zagoruyko_Learning_to_Compare_2015_CVPR_paper.pdf
 
+**[ICCV'15]** Simo-Serra et al. *Discriminative Learning of Deep Convolutional Feature Point Descriptors*  
+http://www.iri.upc.edu/files/scidoc/1694-Discriminative-Learning-of-Deep-Convolutional-Feature-Point-Descriptors.pdf
+
+**[ARXIV'16]** Balntas et al. *PN-Net: Conjoined triple deep network for learning local image descriptors.*  
+http://arxiv.org/pdf/1601.05030v1.pdf
+
+**[ARXIV'16]** Moo Yi et al. *LIFT: Learned Invariant Feature Transform*  
+http://arxiv.org/pdf/1603.09114v1.pdf
+> Mirror the SIFT construction but with a network per module (detection,
+> orientation, description). Only the whole pipeline is applied to a 
+> precomputed scale-space pyramid.
+
 **List of other descriptors to be gathered here**
 * BRISK
 * ORB https://www.willowgarage.com/sites/default/files/orb_final.pdf
@@ -165,6 +177,14 @@ http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Shen_Supervised
 > Code: https://github.com/bd622/DiscretHashing
 
 ----
+# Theoretical papers
+[JMIV'15] Lindeberg. *Image Matching Using Generalized Scale-Space Interest Points*  
+ftp://ftp.nada.kth.se/CB/papers/Lin15-JMIV.pdf
+> A part from many interesting stuff, there is a useful tip: Perform
+> detection and description on the log(I) so that multiplicative constant
+>  (e.g f-number, illumination) become additive and are removed thanks to 
+>  derivative (or  difference)
+
 # Some code and datatsets
 **VLBenchmarks** http://www.vlfeat.org/benchmarks/index.html
 
