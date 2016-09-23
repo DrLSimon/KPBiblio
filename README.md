@@ -64,6 +64,8 @@ http://arxiv.org/pdf/1603.09114v1.pdf
 * A tutorial sequence https://gilscvblog.com/2013/08/26/tutorial-on-binary-descriptors-part-1/
 * A 2014 survey:  
 http://www.embedded-vision.com/sites/default/files/apress/computervisionmetrics/chapter6/9781430259299_Ch06.pdf
+* A 2016 survey:
+http://arxiv.org/pdf/1607.08368v1.pdf
 
 
 ## benchmarking papers
@@ -204,6 +206,9 @@ https://www.scss.tcd.ie/Gerard.Lacey/Gerard_Lacey_Homepage/CS4053_Course_files/L
 
 Tomasz Malisiewicz Blog
 http://www.computervisionblog.com/2016/01/why-slam-matters-future-of-real-time.html
+
+CVPR'16 tutorial on hashing
+http://sglab.kaist.ac.kr/~sungeui/image_tutorial/P2_Lin16.pdf
 
 ----
 **Markdown Cheat-sheet**
